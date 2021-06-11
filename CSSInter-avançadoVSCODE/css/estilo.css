@@ -1,0 +1,144 @@
+/*
+Seletor universal 
+*{
+	border: 1px solid red;
+}*/
+
+/*
+Seletor de texto 
+
+h1 {
+	color: green;
+}*/
+
+
+/*
+Seletor de filho
+*/
+
+/*li>a {
+
+	color: red;
+	text-decoration: none;
+
+}*/
+
+/*Seletor descendentes
+*/
+
+/*p a {
+	color: green;
+}
+*/
+/*
+div a {
+	color: green;
+}*/
+
+/*Seletor de irmão adjacente */
+
+/*h1+p {
+	color: red;
+}*/
+
+/*seletor de irmão geral*/
+
+/*h1~p{
+	color: hotpink;
+}*/
+
+/**********herança e Especificidade************/
+
+/* !important faz rodar o codigo primeiro em caso de 
+seletores iguais. OBS: SEM O IMPORTANT IA RODAR PRIMEIRO O "BLUE"
+p {
+	color: blue !important;
+}
+
+p {
+	color: blue;
+}*/
+
+/*Se um seletor for mais específico que outro a regra mais 
+epecífica será aplicada 
+(terá precedência sobre regras mais gerais)
+*/
+
+/*
+
+*{
+	color: red;
+}
+
+h2 {
+	color: blue;
+}
+
+h2.verde {
+	color: green;
+}
+
+h2#amarelo {
+	color: yellow;
+}
+
+   ordem 
+	1 ID
+	2 CLASS
+	3 h2
+*/ 
+
+/********************************
+Barra de navegação */
+
+/*
+
+ul {
+
+	
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+
+	padding: 5px 20px;
+	background: url(../imagens/seta.png) no-repeat left center ;
+
+}
+*/
+
+ul {
+
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+ul a {
+	
+	width: 200px;
+	height: 40px;
+	display: block;
+	color: #000;
+	text-decoration: none;
+	text-indent: 40px;
+	line-height: 40px;
+	background: #f7b600 url(../imagens/menu.png) no-repeat left; bottom;
+}
+
+a:hover {
+	background-position: right bottom;
+	background-color: #f99200;
+	color: #fff;
+}
+
+#home #navegacao .home a,
+#sobre #navegacao .sobre a,
+#servicos #navegacao .servicos a {
+
+		background-position: right bottom;
+		background-color: #f99200;
+		color: #fff;
+}
