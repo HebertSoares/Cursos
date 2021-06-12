@@ -8,55 +8,26 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h2>Estilizando Formulários</h2>
-    <form>
 
-        <fieldset>
+    <div id="container"> 
 
-            <legend>Detalhes de Contato</legend>
-
+        <img src="../style-formularios-parte2/imagens/perfil.png" alt="imgperfil">
+        <form>
             <div>
-            <label for="nome">Nome:</label>
-                <input type="text" name="nome2" id="nome">                
+                <input class="email" type="text" name="email" id="email" placeholder="Digite seu e-mail">
             </div>
 
             <div>
-                <label for="email">Email:</label>
-                    <input type="text" name="email" id="email">                
+                <input class="senha" type="password" name="senha" id="senha" placeholder="Digite sua senha">
             </div>
 
             <div>
-                <label for="url">URL:</label>
-                    <input type="text" name="url" id="url">                
+                <input class="sumit" type="submit" value="Logar">         
+                
             </div>
+        </form>
 
-        </fieldset>
+    </div>
 
-        <fieldset>
-            <legend>Comentários</legend>
-            <div>
-                <label for="mensagem">Mensagem:</label>
-                <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
-            </div>
-        </fieldset>
-
-        <fieldset>
-            <legend>Lembrar de mim</legend>
-            <div>
-                <label>
-                    <input class="radio" type="radio" name="lembrar" id="sim">Sim
-                </label>
-            </div>
-
-            <div>
-                <label >
-                    <input class="radio" type="radio" name="lembrar" id="nao">Não
-                </label>
-            </div>
-
-        </fieldset>
-
-
-    </form>
 </body>
 </html>
