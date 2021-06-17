@@ -3,12 +3,52 @@ body {
     background: #efefee;
     
 }
-
 #principal {
     width: 920px;
     background-color: white;
     margin: 0 auto;
 }
+#topo{
+    width: 100%;
+    height: 250px;
+    border-top: solid;
+   
+}
+img{
+    
+    float: right;
+    width: 150px;
+}
+@font-face {
+    font-family: 'Top Secret';
+    src: url("TopSecret.woff");
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.5em;    
+    font-family: "Top Secret";
+    margin: 20px;   
+    
+}
+
+p{
+    margin: 20px;
+    text-align: left;
+}
+#topo a{
+    text-decoration: none;
+    margin: 20px;
+   
+}
+#topo .navegacao a {
+    margin: 0px;
+    line-height: 3em;
+    background-color: rgb(46, 41, 41);
+    padding: 5px;
+    color: #e3e6e5;
+    border: solid 1px #efefee;
+} 
 table{
     margin: 0 auto;
     width: 600px;
