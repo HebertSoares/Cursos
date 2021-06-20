@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novas tags de input html 5</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>    
+    
+    <form>
+        <!--Novos Inputs e atributos HTML 5-->
+        <label for="nome"> Nome</label>
+        <input type="text" name="nome" required autofocus>
+        <br><br>
+
+        <!--Email-->
+        <label for="email">E-mail</label>
+        <input type="email" id="email" required>
+        <br><br>
+
+        <!--Número-->
+        <label for="numero">Número</label>
+        <input type="number" id="numero" min="1" max="20" step="5" >
+        <br><br>
+
+        <!--url-->
+        <label for="url">Url</label>
+        <input type="url" id="url" placeholder="ex: http://www..." >
+        <br><br>
+        <!--Pesquisa-->
+        <label for="pesquisa">Pesquisa</label>
+        <input type="search" id="pesquisa">
+        <br><br>
+        <!--Range-->
+        <label for="range">Range</label>
+        <input type="range" id="range" min="1" max="5" value="2,5">
+        <br><br>
+
+         <!--date-->
+        <label for="date">Data</label>
+        <input type="date" id="date">
+        <br><br>
+
+        <!--Cor-->
+        <label for="cor">Data</label>
+        <input type="color" id="cor">
+        <br><br>
+        <input type="submit" value="Enviar">
+        
+    </form>
+ 
+
+</body>
+</html>
